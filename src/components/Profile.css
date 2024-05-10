@@ -1,0 +1,42 @@
+.card {
+  border: 2px solid black;
+  border-radius: 8px;
+}
+.photoName {
+  padding: 32px 64px;
+}
+.photo {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+}
+.name {
+  color: black;
+  font-size: 24px;
+  font-weight: bold;
+}
+.text {
+  color: gray;
+  font-size: 24px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 120px;
+  background-color: rgb(198, 191, 191);
+  border-top: 2px solid gray;
+}
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.statsText {
+  font-size: 20px;
+}
+.statsData {
+  font-size: 20px;
+  font-weight: bold;
+}
