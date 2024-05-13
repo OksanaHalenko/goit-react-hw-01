@@ -1,0 +1,22 @@
+.friend {
+  min-width: 60px;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 8px;
+}
+.avatar {
+}
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+.state {
+  font-size: 18px;
+  font-weight: 500;
+}
+.isOnline {
+  color: green;
+}
+.isOffline {
+  color: red;
+}

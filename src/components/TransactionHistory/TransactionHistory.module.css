@@ -1,0 +1,25 @@
+.table {
+  margin-top: 24px;
+  table-layout: fixed;
+  width: 520px;
+  border-collapse: collapse;
+  border: 2px solid black;
+}
+td {
+  padding: 8px;
+}
+.tableHeder {
+  padding: 8px;
+  background-color: rgb(45, 43, 43);
+  color: white;
+}
+.row:nth-child(2n) {
+  background-color: darkgray;
+}
+.columns {
+  border: 1px solid black;
+}
+.typeColumn {
+  padding-left: 52px;
+  text-align: left;
+}
